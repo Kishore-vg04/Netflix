@@ -1,0 +1,180 @@
+body{
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main0{
+    position: relative;
+    bottom: 0;
+}
+.main1 img{
+    height: 110vh;
+    width: 100%;
+    filter: brightness(30%);
+}
+.logo{
+    top: 0;
+    left: 150px;
+    position: absolute;
+}
+.logo img{
+    width: 200px;
+}
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 330px;
+    top: 200px;
+}
+.sub{
+    position: absolute;
+    top: 480px;
+    left: 450px;
+}
+.sub input{
+    height: 50px;
+    width: 400px;
+    border: 1px solid azure;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.sub button{
+    height: 50px;
+    color: white;
+    background-color: red;
+    padding: 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.language{
+    position: absolute;
+    top: 50px;
+    right: 180px;
+}
+.language select{
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 7px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.language button{
+    color: azure;
+    background-color: red;
+    border-radius: 7px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}   
+.main2{
+    margin: 0px;
+    color: white;
+    width: 100%;
+    padding-left: 100px;
+}
+.main2 .container1{
+    left: 100px;
+    padding-left: 50px;
+}
+.main2 .container1 img{
+    height: 350px;
+    width: 250px;
+    border-radius: 20px;
+}
+.main2 .container1 img:hover{
+    scale:1.1;
+    transition: .2s;
+}
+.main3{
+    color: white;
+    position: relative;
+    left: 100px;
+    padding-left: 20px;
+}
+.main3 .container2{
+    background-image: linear-gradient(rgb(23, 23, 50),rgb(52, 24, 52));
+    width: 250px;
+    height:260px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 30px;
+    font-size: 15px;
+}
+.main3 table td{
+    padding-left: 30px;
+}
+.main4{
+    color: white;
+    padding-left: 120px;
+    width: 70%;
+}
+.main4 .a1{
+    background-color: rgb(151, 146, 146);
+}
+.main4 summary,.main4 P{
+    background-color: gray;
+    padding-bottom: 20PX;
+    border: 3px solid black;
+}
+.last{
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.last table{
+    position: absolute;
+    left: 480px;
+}
+.last input{
+    height: 50px;
+    width: 400px;
+    border: 1px solid azure;
+    color: white;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.last button{
+    height: 50px;
+    color: white;
+    background-color: red;
+    padding: 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.foot{
+    color: rgb(150, 147, 147);
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.foot table td{
+    padding-left: 100px;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+.foot .language1 select{
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 0, 0,0.5);
+}
+.footer{
+    color: rgb(170, 169, 169);
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+* button:hover{
+    background-color: rgb(244, 8, 8);
+}
